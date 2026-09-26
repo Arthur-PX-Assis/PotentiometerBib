@@ -1,0 +1,1 @@
+# Biblioteca para o uso do potênciometro no Arduíno UNO
