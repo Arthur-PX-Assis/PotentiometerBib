@@ -7,13 +7,14 @@
 
 class Potentiometer{
     private:
-        byte readPin = READ_PIN;
+        byte readPin = READ_PIN; // Pino para saída do potênciometro
 
     public:
-        int readOutput();
-        float readOutputTension();
-        int readOutputInInterval(int min, int max);
-        void writeInSeral();
+        Potentiometer(); // Construtor
+        int readOutput(); // Lê a saída diretamente
+        float readOutputTension(); // Converte a saída para tensão (0V-5V)
+        int readOutputInInterval(int min, int max); // Converte a saída para um intervalo personalizado
+        void writeInSeral(); // Escreve no serial
 };
 
 #endif
