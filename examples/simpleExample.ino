@@ -14,7 +14,8 @@ Potentiometer meuPotenciometro(A0);
 void setup() {
   // Inicializa a comunicacao serial a 9600 bps (padrão)
   Serial.begin(9600);
-
+  While (!Serial);
+ 
   Serial.println("Demonstracao do uso da biblioteca");
   Serial.println("----------------------------------------");
 }
