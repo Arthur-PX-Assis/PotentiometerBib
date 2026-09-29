@@ -1,0 +1,7 @@
+Potentiometer   KEYWORD1
+readOutput  KEYWORD2
+readOutputTension   KEYWORD2
+readOutputInInterval    KEYWORD2
+writeOutputInSerial KEYWORD2
+writeTensionInSerial    KEYWORD2
+writeIntervalInSerial   KEYWORD2
